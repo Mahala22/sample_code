@@ -1,0 +1,18 @@
+.Searchbar{
+    text-align: center;
+    margin-top: 150px;
+
+}
+.Searchbar input{
+	position:relative;
+	font-size: 1.5em;
+    padding: 3px;
+    border-color: rgb(108, 108, 209);
+    border-radius: 9999em;
+    
+}
+@media (max-width: 600px) {
+    .Searchbar  input{
+        width: 250px;
+    }
+}

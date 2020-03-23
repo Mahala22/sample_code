@@ -1,0 +1,72 @@
+.User{
+    box-sizing: border-box;
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(228, 203, 186);
+}
+.table1{
+    border-collapse:separate; 
+    border-spacing:0 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    margin-left: 17%;
+    padding: 5px;
+    width: 50%;
+    
+}
+.tableHeader{
+    
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    
+
+}
+.tableData1{
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.tableRow{
+    background-color: rgb(99, 160, 195);
+    transition: all 0.2s ease-in-out;
+    
+}
+.tableRow:hover,.tableRow:active{
+
+    background-color: rgb(179, 235, 147);
+    cursor: pointer;
+}
+.User img{
+    max-height: 20px; 
+    max-width: 20px
+}
+@media (max-width: 600px) {
+    .User{
+        width: 55%;
+    } 
+    .table1 {
+        width: 100px;
+        margin-left: 40px;
+    }
+    .tableData1{
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+}
+
+
+
+
+
