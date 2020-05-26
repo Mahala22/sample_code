@@ -1,14 +1,33 @@
 .Searchbar{
-    text-align: center;
-    margin-top: 150px;
-
+    margin-top: 100px;
+    text-align: left;
+    border: hidden;
 }
 .Searchbar input{
 	position:relative;
 	font-size: 1.5em;
     padding: 3px;
-    border-color: rgb(108, 108, 209);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 9999em;
+    margin-left: 5%;
+    background-color: rgb(111, 141, 211);
+    color: rgb(255, 255, 255);
+    outline: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease; 
+    box-shadow:
+                0 2.8px 2.2px rgba(0, 0, 0, 0.04),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.04),
+                0 12.5px 10px rgba(0, 0, 0, 0.04),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.04),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.04),
+                0 100px 80px rgba(0, 0, 0, 0.04)
+}
+.Searchbar input::placeholder{
+    color:  rgb(255, 255, 255);
     
 }
 @media (max-width: 600px) {

@@ -13,8 +13,8 @@
 }
 
 .Pagination a.active {
-background-color: #4CAF50;
-color: white;
+    background-color: #4CAF50;
+    color: white;
 }
 .Pagination a:hover:not(.active) {
     background-color: #ddd;
