@@ -9,7 +9,7 @@ const modal = (props) =>{
             <Backdrop show={props.show} clicked={props.modalcancel}/>
             <div className="Modal"
                 style={{
-                        transform: props.show ? 'translateY(0)' : 'translateY(-100vh)',
+                        transform: props.show ? 'translateZ(0)' : 'translateZ(-100vh)',
                         opacity: props.show ? '1' : '0'
                     }}>
                 <img src={props.data.avatar} alt="avatar"></img>
